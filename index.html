@@ -16,7 +16,7 @@
 
     <main id="content">
       <h2>Why you should sign up:</h2>
-      <p>
+      <p id="p1">
         You've already done the hard work! Here at BackStage affliate we are
         all about you. Our mission is to help individuals to utilize their social
         following and gain from it. Promote what you want, when you want, and earn from it!
@@ -32,30 +32,59 @@
       <form action="Contact-Form" method="get" autocomplete="on">
         <fieldset>
           <ul class="lists">
-            <li>
+            <li id="input-name">
               <label for="name">Name:</label>
               <input type="text" id="name" name="Affiliate_name">
             </li>
-            <li>
+            <li id="input-phone">
               <label for="phone">Phone Number:</label>
               <input type="tel" id="phone" name="Affiliate_phone_number">
             </li>
-            <li>
+            <li id="input-email">
               <label for="email">Email:</label>
               <input type="email" id="email" name="Affiliate_email">
             </li>
-            <li>
+            <li id="input-birthday">
               <label for="birthday">Date of Birth:</label>
               <input type="date" id="birthday" name="birthday">
             </li>
-            <li>
+            <li id="input-best">
               <label for="best-contact">Best way to contact you:</label>
-              <select name="contact-selection" id="best-contact"></select>
+              <select name="best-selection" id="best-contact"></select>
                 <option disabled selected value="">Select one</option>
                 <option value="phone">Phone Number</option>
                 <option value="email">Email</option>
             </li>
-            <li class="apply">
+
+            <h5>Select all that apply:</h5>
+            <p id="p2">There may be additional information requested</p>
+            
+            <li id="chk-instagram">
+              <label for="instagram">Instagram:</label>
+              <input type="checkbox" id="instagram" name="instagram">
+            </li>
+            <li id="chk-snapchat">
+              <label for="snapchat">Snapchat:</label>
+              <input type="checkbox" id="snapchat" name="snapchat">
+            </li>
+            <li id="chk-facebook">
+              <label for="facebook">Facebook:</label>
+              <input type="checkbox" id="facebook" name="facebook">
+            </li>
+            <li id="chk-youtube">
+              <label for="youtube">YouTube:</label>
+              <input type="checkbox" id="youtube" name="youtube">
+            </li>
+            <li id="chk-pinterest">
+              <label for="pinterest">Pineterest:</label>
+              <input type="checkbox" id="pinterest" name="pinterest">
+            </li>
+            <li id="chk-tiktok">
+              <label for="tiktok">TikTok:</label>
+              <input type="checkbox" id="tiktok" name="tiktok">
+            </li>
+
+            <li id="input-submit">
               <input type="submit" value="Apply Now!">
             </li>
           </ul>
