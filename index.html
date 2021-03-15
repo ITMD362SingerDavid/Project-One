@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en" class="nojs">
+  <head>
+    <title>Project One</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="css/resets.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
+  </head>
+
+  <body>
+    <header id="title">
+      <h1>Welcome to BackStage affiliate</h1>
+    </header>
+
+    <main id="content">
+      
+      <form action="Contact-Form" method="get" autocomplete="on">
+        <fieldset>
+          <ul class="lists">
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="Affiliate_name">
+            </li>
+            <li>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="Affiliate_phone_number">
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="Affiliate_email">
+            </li>
+            <li>
+              <label for="birthday">Date of Birth:</label>
+              <input type="date" id="birthday" name="birthday">
+            </li>
+            <li>
+              <label for="best-contact">Best way to contact you:</label>
+              <select name="contact-selection" id="best-contact"></select>
+                <option disabled selected value="">Select one</option>
+                <option value="phone">Phone Number</option>
+                <option value="email">Email</option>
+            </li>
+            <li class="apply">
+              <input type="submit" value="Apply Now!">
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer id="footer">
+      <p>Site © David Singer. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
