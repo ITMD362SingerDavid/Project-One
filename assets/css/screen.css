@@ -9,7 +9,7 @@ html {
 #title{
   padding: 1em;
   background-color: #1F2833;
-  color: #66FCF1;
+  color: #FBFBF8;
   font-style: bold;
   font-size: 120%;
   text-align: center;
@@ -26,12 +26,21 @@ h2{
   border-bottom: 0.25em solid #1F2833;
 }
 
+#content2{
+  padding-top: 0.1em;
+}
+
 article p{
   font-size: 80%;
   border-left: medium outset #45A29E;
   padding-top: 0.2em; /* randomly chosen */
   padding-left: 0.2em; /* randomly chosen */
   border-bottom: medium outset #45A29E;
+}
+
+#p3{
+    border-bottom: medium outset #45A29E;
+    font-size: 70%;
 }
 
 h3{
@@ -85,6 +94,11 @@ fieldset{
 #input-submit{
   padding-top: 1em;
   text-align: center;
+}
+
+#input-submit > input[type="submit"]:hover{
+  background-color: #1F2833;
+  color: #FBFBF8;
 }
 
 footer{
