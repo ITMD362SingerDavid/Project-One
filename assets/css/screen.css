@@ -1,4 +1,12 @@
 html {
+  /* Fonts
+    font-family: 'Akaya Telivigala', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+  */
+  font-family: Sans, Times, 'Montserrat', sans-serif;
   font-size: 1.375em; /* 22px / 16px */
   line-height: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
@@ -7,6 +15,7 @@ html {
 /* padding: 1.182em; /* 26px / ~ 120% */
 
 #title{
+  font-family: 'Oswald', sans-serif;
   padding: 1em;
   background-color: #1F2833;
   color: #FBFBF8;
@@ -21,6 +30,7 @@ article{
 }
 
 h2{
+  font-family: 'Montserrat', sans-serif;
   background-color: #7395AE;
   padding: 0.3em; /* randomly chosen */
   border-bottom: 0.25em solid #1F2833;
@@ -31,7 +41,7 @@ h2{
 }
 
 article p{
-  font-size: 80%;
+  font-size: 75%;
   border-left: medium outset #45A29E;
   padding-top: 0.2em; /* randomly chosen */
   padding-left: 0.2em; /* randomly chosen */
@@ -40,14 +50,16 @@ article p{
 
 #p3{
     border-bottom: medium outset #45A29E;
-    font-size: 70%;
+    font-size: 67%;
 }
 
 h3{
+  font-family: 'Montserrat', sans-serif;
   background-color: #7395AE;
   border-bottom: 0.25em solid #1F2833;
   padding-top: 1em; /* randomly chosen */
   padding-left: 0.2em; /* randomly chosen */
+  padding-bottom: 0.2em;
 }
 
 article ul{
@@ -63,6 +75,7 @@ article ul li{
 }
 
 h4{
+  font-family: 'Akaya Telivigala', cursive;
   font-size: 80%;
   text-align: center;
   background-color: #1F2833;
@@ -92,8 +105,9 @@ fieldset{
 }
 
 #chk-title{
+  font-family: 'Oswald', sans-serif;
   padding-top: 1em;
-  font-size: 110%;
+  font-size: 150%;
 }
 #chk-p1{
   font-size: 60%;
