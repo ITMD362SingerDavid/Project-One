@@ -91,6 +91,14 @@ fieldset{
   border-radius: 0.5em;
 }
 
+#chk-title{
+  padding-top: 1em;
+  font-size: 110%;
+}
+#chk-p1{
+  font-size: 60%;
+}
+
 #input-submit{
   padding-top: 1em;
   text-align: center;
