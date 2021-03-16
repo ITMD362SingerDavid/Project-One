@@ -1,0 +1,83 @@
+html {
+  font-size: 1.375em; /* 22px / 16px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+}
+
+/* padding: 1.182em; /* 26px / ~ 120% */
+
+#title{
+  padding: 1em;
+  background-color: pink;
+  font-size: 120%;
+  text-align: center;
+}
+
+article{
+  padding: 1.182em; /* 26px / ~ 120% */
+  background-color: beige;
+}
+
+h2{
+  background-color: grey;
+  padding: 0.3em; /* randomly chosen */
+  text-align: center;
+  border-bottom: 0.25em solid blueviolet;
+}
+
+article p{
+  font-size: 80%;
+  border-left: medium outset red;
+  background-color: yellow;
+  padding-top: 0.2em; /* randomly chosen */
+  padding-left: 0.2em; /* randomly chosen */
+  border-bottom: medium outset red;
+}
+
+h3{
+  background-color: grey;
+  border-bottom: 0.25em solid blueviolet;
+  padding-top: 1em; /* randomly chosen */
+  padding-left: 0.2em; /* randomly chosen */
+}
+
+article ul{
+  border-left: medium outset red;
+  padding-top: 0.2em; /* randomly chosen */
+  padding-left: 0.2em; /* randomly chosen */
+  list-style: inside;
+  list-style-type: circle;
+}
+article ul li{
+  font-size: 70%;
+}
+
+h4{
+  background-color: grey;
+  padding: 0.5em 0 0.5em 0;
+}
+
+form{
+  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 75%;
+  background-color: beige;
+}
+
+fieldset{
+  border: 0.2em outset green;
+  background-color: white;
+}
+
+.block-lists label{
+  display: block;
+}
+
+#input-submit{
+  padding-top: 1em;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  font-size: 50%;
+}
