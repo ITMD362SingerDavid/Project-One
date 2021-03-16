@@ -8,41 +8,42 @@ html {
 
 #title{
   padding: 1em;
-  background-color: pink;
+  background-color: #1F2833;
+  color: #66FCF1;
+  font-style: bold;
   font-size: 120%;
   text-align: center;
 }
 
 article{
   padding: 1.182em; /* 26px / ~ 120% */
-  background-color: beige;
+  background-color: #FBFBF8;
 }
 
 h2{
-  background-color: grey;
+  background-color: #7395AE;
   padding: 0.3em; /* randomly chosen */
-  text-align: center;
-  border-bottom: 0.25em solid blueviolet;
+  border-bottom: 0.25em solid #1F2833;
 }
 
 article p{
   font-size: 80%;
-  border-left: medium outset red;
-  background-color: yellow;
+  border-left: medium outset #45A29E;
   padding-top: 0.2em; /* randomly chosen */
   padding-left: 0.2em; /* randomly chosen */
-  border-bottom: medium outset red;
+  border-bottom: medium outset #45A29E;
 }
 
 h3{
-  background-color: grey;
-  border-bottom: 0.25em solid blueviolet;
+  background-color: #7395AE;
+  border-bottom: 0.25em solid #1F2833;
   padding-top: 1em; /* randomly chosen */
   padding-left: 0.2em; /* randomly chosen */
 }
 
 article ul{
-  border-left: medium outset red;
+  border-left: medium outset #45A29E;
+  border-bottom: medium outset #45A29E;
   padding-top: 0.2em; /* randomly chosen */
   padding-left: 0.2em; /* randomly chosen */
   list-style: inside;
@@ -53,23 +54,32 @@ article ul li{
 }
 
 h4{
-  background-color: grey;
+  font-size: 80%;
+  text-align: center;
+  background-color: #1F2833;
+  color: #FBFBF8;
   padding: 0.5em 0 0.5em 0;
 }
 
 form{
   padding: 1.182em; /* 26px / ~ 120% */
   font-size: 75%;
-  background-color: beige;
+  background-color: #FBFBF8;
 }
 
 fieldset{
-  border: 0.2em outset green;
-  background-color: white;
+  border: 0.6em solid;
+  border-image: radial-gradient(#280C5D, #45A29E) 40;
+  background-color: #FBFBF8;
 }
 
 .block-lists label{
   display: block;
+  padding-top: 0.4em;
+}
+
+.block-lists input{
+  border-radius: 0.5em;
 }
 
 #input-submit{
