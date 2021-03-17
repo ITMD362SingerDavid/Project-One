@@ -130,6 +130,9 @@ footer{
 }
 
 @media screen and (min-width: 538px){
+  title{
+    font-size: 150%;
+  }
   form{
     margin: 0 auto;
     text-align: center;
