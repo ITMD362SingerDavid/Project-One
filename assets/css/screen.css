@@ -128,3 +128,10 @@ footer{
   font-size: 50%;
   background-color: #FBFBF8;
 }
+
+@media screen and (min-width: 538px){
+  form{
+    margin: 0 auto;
+    text-align: center;
+  }
+}
